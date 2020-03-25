@@ -14,10 +14,11 @@ print "Running some Perl code; it feels dusty\n";
 
 # There MUST, and SHALL be, treasure. You can describe where the treasure is hidden here:
 
-my $theTreasure = "You've found my treasure!\nType:
-\'open ".$here."/.secret/treasure.jpg\'
+my $theTreasure = "You've found my treasure! Type:
+\'open ".$here."/.logo.png\'
 Remember that a good bioinformagician always abides by
-the Ft. Lauderdale Agreement and shares their data/booty.\n";
+the Fort Lauderdale Agreement and shares their data/booty. 
+https://www.genome.gov/Pages/Research/WellcomeReport0303.pdf\n";
 
 # Create locations
 my @places = (
@@ -185,7 +186,7 @@ foreach my $num (1..5000){
 	print $OUT13 "\n";
 }
 
-print $OUT13 "Great, now copy this clue the the tote bag, go back to the tote bag and look
+print $OUT13 "Great, now copy this clue to the tote bag, go back to the tote bag and look
 at the last letter in the filenames of the clues.\n";
 
 my $output14 = 'swordShop/northFiveSteps/westFiveSteps/xMarksTheSpot.txt';

@@ -20,7 +20,8 @@ my @people = (
 
 my $person = $people[ rand @people ];
 my $place = $places[ rand @places ];
-print "Deleting stuff. I once met ".$person." in that ".$place.". I have these memories from my life. None of them happened. What does that mean?\n";
+print "Deleting stuff. I once met ".$person." in that ".$place.".
+I have these memories from my life. None of them happened. What does that mean?\n";
 
 # Delete each directory
 foreach my $place (@places){
